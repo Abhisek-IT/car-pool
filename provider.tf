@@ -9,5 +9,6 @@ terraform {
 
 provider "azurerm" {
   fetures{}
+use_oidc = true
 }
 
